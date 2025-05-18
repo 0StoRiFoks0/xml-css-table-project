@@ -3,7 +3,7 @@ XML to CSS Table Conversion Project
 
 ![HTML5](https://img.shields.io/badge/XML-Data_Structure-orange?logo=xml)
 ![CSS3](https://img.shields.io/badge/CSS-Styling-blue?logo=css3)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-lightgrey?logo=githu
+![GitHub](https://img.shields.io/badge/GitHub-Repository-lightgrey?logo=github
 
 xml-css-visualization/
 ├── data/
