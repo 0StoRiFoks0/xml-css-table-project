@@ -1,0 +1,61 @@
+/* Основний стиль для відображення у вигляді таблиці */
+students {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    margin: 20px 0;
+}
+
+student {
+    display: table-row;
+    background-color: #fff;
+}
+
+student:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+student:hover {
+    background-color: #f0f0f0;
+}
+
+/* Заголовки стовпців */
+student:first-child {
+    font-weight: bold;
+    background-color: #e0e0e0;
+}
+
+/* Стилі для комірок (елементів) */
+id, name, birthdate, faculty, group, status, contact {
+    display: table-cell;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+
+/* Специфічні стилі для деяких елементів */
+name {
+    font-weight: bold;
+    color: #0066cc;
+}
+
+active[value="true"] {
+    color: green;
+    font-weight: bold;
+}
+
+active[value="false"] {
+    color: red;
+    font-weight: bold;
+}
+
+/* Стилі для вкладених блоків (статус, контакти) */
+status, contact {
+    display: block;
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #f5f5f5;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
