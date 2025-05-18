@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="student_style.css"?>
+<!-- Відділ кадрів студентів - табличне відображення -->
+<students>
+    <!-- Заголовки стовпців -->
+    <student>
+        <id>ID</id>
+        <name>ПІБ</name>
+        <birthdate>Дата народження</birthdate>
+        <faculty>Факультет</faculty>
+        <group>Група</group>
+        <status>Статус</status>
+        <contact>Контакти</contact>
+    </student>
+    
+    <!-- Дані студентів -->
+    <student>
+        <id>1</id>
+        <name>Іван Сидоров</name>
+        <birthdate>2000-05-15</birthdate>
+        <faculty>Комп'ютерні науки</faculty>
+        <group>KH-23</group>
+        <status>
+            <enrollment>2018-09-01</enrollment>
+            <graduation>2022-06-30</graduation>
+            <active>true</active>
+        </status>
+        <contact>
+            <email>ivan.sidorov@gmail.com</email>
+            <phone>+380991234567</phone>
+        </contact>
+    </student>
+    
+    <student>
+        <id>2</id>
+        <name>Катерина Іванова</name>
+        <birthdate>2001-03-22</birthdate>
+        <faculty>Математика</faculty>
+        <group>KH-22</group>
+        <status>
+            <enrollment>2019-09-01</enrollment>
+            <graduation>2023-06-30</graduation>
+            <active>true</active>
+        </status>
+        <contact>
+            <email>kateryna.ivanova@gmail.com</email>
+            <phone>+380992345678</phone>
+        </contact>
+    </student>
+</students>
