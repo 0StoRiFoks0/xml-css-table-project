@@ -5,17 +5,6 @@ XML to CSS Table Conversion Project
 ![CSS3](https://img.shields.io/badge/CSS-Styling-blue?logo=css3)
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-lightgrey?logo=github)
 
-xml-css-visualization/
-├── data/
-│ └── students.xml # Main XML data file
-├── styles/
-│ └── table.css # CSS stylesheet
-├── assets/
-│ └── preview.png # Project preview
-├── LICENSE # MIT License
-└── README.md # This file
-
-
 ## Features
 
 - Pure XML + CSS solution (no JavaScript)
